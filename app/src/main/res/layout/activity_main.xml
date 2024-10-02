@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp"
+    android:paddingTop="40dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="match_parent"
+    tools:context="com.compose.notificationallsampleapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_sample_heading"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/basic_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/basic_notification_with_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_notification_with_icon"
+        android:layout_marginBottom="20dp"/>
+
+
+    <Button
+        android:id="@+id/big_text_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/big_text_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/inbox_style_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inbox_style_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/big_picture_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/big_picture_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/messaging_style_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/messaging_style_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/media_style_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/media_style_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/progress_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_notification"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/notification_with_action_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_with_action_buttons"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bundled_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bundled_notifications"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+</LinearLayout>

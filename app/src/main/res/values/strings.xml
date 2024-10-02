@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notification experiment</string>
+    <string name="notification_sample_heading"> All Notifications Samples</string>
+    <string name="basic_notification">Basic Notification</string>
+    <string name="big_text_notification">Big Text Notification</string>
+    <string name="inbox_style_notification">Inbox Style Notification</string>
+    <string name="big_picture_notification">Big Picture Notification</string>
+    <string name="messaging_style_notification">Messaging Style Notification</string>
+    <string name="media_style_notification">Media Style Notification</string>
+    <string name="progress_notification">Progress Notification</string>
+    <string name="notification_with_action_buttons">Notification with Action Buttons</string>
+    <string name="bundled_notifications">Bundled Notifications</string>
+    <string name="basic_notification_with_icon">Basic Notification with Icon</string>
+</resources>
