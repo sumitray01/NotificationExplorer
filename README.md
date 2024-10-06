@@ -21,10 +21,11 @@ NotificationExplorer is an Android app showcasing various types of notifications
 - **Android SDK**: The latest Android APIs for notification handling.
 
 ## Screenshots
-
 | Home Screen | Notifications |
 |-------------|---------------|
 | ![Screenshot](./Screenshot_20241002_104812.png) | Example notifications for different types |
+| ![Screenshot](./Screenshot_20241002_104901.png) | Example notification appearence on notification bar  |
+| ![Screenshot](./Screenshot_20241002_104941.png) | Example notification appearence on notification bar|
 
 ## Installation
 
