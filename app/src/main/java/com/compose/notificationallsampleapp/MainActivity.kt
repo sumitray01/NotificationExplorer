@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
+// Handle other permissions if needed
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     private fun showDialog(title: String, message: String) {
 
@@ -167,6 +167,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+        // Set a negative button to dismiss the dialog
         val dialog = builder.create()
         dialog.setCancelable(false)
         dialog.show()
