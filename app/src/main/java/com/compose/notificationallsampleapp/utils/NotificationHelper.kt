@@ -51,7 +51,7 @@ class NotificationHelper() {
 
 
 
-
+// Function to check if notification permission is granted
 
     // Basic Notification
     @SuppressLint("MissingPermission")
