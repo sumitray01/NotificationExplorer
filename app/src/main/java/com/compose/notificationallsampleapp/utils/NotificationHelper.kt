@@ -98,7 +98,7 @@ class NotificationHelper() {
         NotificationManagerCompat.from(context).notify(2, notification)
     }
 
-    // Inbox Style Notification
+// Inbox Style Notification
     @SuppressLint("MissingPermission")
     fun showInboxStyleNotification(context: Context) {
         val inboxStyle = NotificationCompat.InboxStyle()
@@ -171,8 +171,7 @@ class NotificationHelper() {
 
         NotificationManagerCompat.from(context).notify(NOTIFICATION_ID, notification)
     }
-
-    // Progress Notification
+// Progress Notification
    @SuppressLint("MissingPermission")
     fun showProgressNotification(context: Context) {
         val PROGRESS_MAX = 100
