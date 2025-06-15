@@ -46,8 +46,9 @@ class MainActivity : AppCompatActivity() {
             override fun onPause() {
                 // Handle pause action
             }
-
-            // Add more actions if needed
+            override fun onStop() {
+                // Handle stop action
+            }
         })
 
         binding.basicNotification.setOnClickListener {
