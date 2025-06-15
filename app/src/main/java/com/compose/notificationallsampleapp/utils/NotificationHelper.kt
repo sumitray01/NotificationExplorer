@@ -23,8 +23,7 @@ class NotificationHelper() {
         private const val NOTIFICATION_ID = 1001
     }
 
-
-    // Function to create a notification channel
+    // Function to create a notification channel for Android O and above
     @RequiresApi(Build.VERSION_CODES.Q)
     fun createNotificationChannel(context: Context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -51,7 +50,7 @@ class NotificationHelper() {
 
 
 
-
+// Function to check if notification permission is granted
 
     // Basic Notification
     @SuppressLint("MissingPermission")
